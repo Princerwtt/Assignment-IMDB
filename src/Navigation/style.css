@@ -1,0 +1,31 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #232323;
+  color: #fff;
+}
+
+.logo {
+  flex: 1;
+}
+
+.navBarIcon {
+  width: 120px;
+  height: auto;
+  max-width: 100%;
+}
+
+.all {
+  margin-right: 20px;
+}
+
+.all a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.all a:hover {
+  text-decoration: underline;
+}
